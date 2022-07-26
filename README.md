@@ -1,5 +1,23 @@
 # Keiki
 
+## Associated Publication
+This is the code for the paper "Keiki: Towards Realistic Danmaku Generation via Sequential GANs" accepted by the 2021 IEEE Conference on Games.
+
+Please use this bibtex if you use this repository in your work:
+
+````
+@inproceedings{wang2021keiki,
+  title={Keiki: Towards Realistic Danmaku Generation via Sequential GANs},
+  author={Wang, Ziqi and Liu, Jialin and Yannakakis, Georgios N.},
+  booktitle = {2021 IEEE Conference on Games (CoG)},
+  year={2021},
+  pages={Accepted},
+  organization={IEEE}
+}
+````
+
+## Project Description
+
 ​    A bullet hell game Platform for research purpose (especially danmaku generation) written in Python.
 
 ​    In this platform, you can design "danmakus" by implement Danmaku class provided in the platform. The platform guarantee subclasses of this class can be encoded into a parameter sequence for training Generative Adversarial Nets (GANs). We will update the documentations for the danmaku designing APIs at https://github.com/PneuC/Keiki/wiki/API-Docs soon.
@@ -41,3 +59,6 @@
 **Training GANs:**
 
 ​    We provide 3 implemented GANs in *generator* folder. For each GANs you can run *train.py* at the corresonding folder to train it. You can execute *python train.py -h* or *python train.py --help* to check the parameters for the training. 
+
+
+
