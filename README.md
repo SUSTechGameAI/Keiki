@@ -1,6 +1,5 @@
 # Keiki
 
-## Associated Publication
 This is the code for the paper "Keiki: Towards Realistic Danmaku Generation via Sequential GANs" accepted by the 2021 IEEE Conference on Games.
 
 Please use this bibtex if you use this repository in your work:
